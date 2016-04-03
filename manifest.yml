@@ -1,0 +1,6 @@
+---
+applications:
+- name: http-proxy
+  random-route: true
+  buildpack: staticfile_buildpack
+  memory: 64m
